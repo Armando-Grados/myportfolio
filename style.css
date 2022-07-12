@@ -1,0 +1,215 @@
+body{
+    display: flex;  
+    background-color: #ecf0f3;
+    justify-content: center;
+    align-items: center;
+    animation: paginaCarga 0.75s;
+}
+
+
+.contenido-total{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px -100px;
+    position: sticky;
+    top: 10px;
+    z-index: 2;
+    padding: 10px 50px;
+}
+
+.nav-der a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-der a:hover{
+    font-size: 20px;
+    color: lightgreen;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.HOME{
+    display: flex;
+    justify-content: space-between;
+}
+
+#find-me-best-skills{
+    margin-top: 100px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes paginaCarga {
+    from {
+        opacity: 1;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.imagen-1{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+#banner{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.b-nav{
+    margin: 0 30px;
+}
+
+#nombre{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#soy{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.descripcion{
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.find-best-letters{
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.iconos{
+    margin-right: 20px;
+}
+
+.descripcion span{
+    color: lightgreen;
+}
+
+.icon-1 i:hover{
+    animation-name: fadeIn;
+    animation-duration: 2s; 
+}
+
+#find-me-best-skills{
+    display: flex;
+}
+
+.icon-2{
+    margin-left: 150px;
+}
+
+.SKILLS{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.iconos-skills{
+    margin: 10px 60px;
+}
+#html-icon{
+    color: orange;
+}
+
+#css-icon{
+    color: blue;
+}
+
+#js-icon{
+    color: yellow;
+}
+
+#react-icon{
+    color: lightblue;
+}
+
+#node-icon{
+    color: lightgreen;
+}
+
+#bootstrap-icon{
+    color: purple;
+}
+
+#git-icon{
+    color: orange;
+}
+
+#ABOUT{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#sobre-mi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 400px;
+    height: 500px;
+    margin: 10px 50px;
+}
+
+.mibox-2{
+    margin-bottom: -150px;
+}
+
+#mi-foto {
+    border-radius: 15px;
+    box-shadow: 5px;
+}
+
+#CONTACT{
+    text-align: center;
+    margin-top: 100px;
+}
