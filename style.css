@@ -102,12 +102,18 @@ body{
     font-weight: bold;
 }
 
+
 .descripcion{
     color: black;
     font-family: Poppins, sans-serif;
     font-size: 16px;
     font-weight: bold;
     line-height: 30px;
+    max-width: 800px;
+}
+
+.home-desc{
+    font-size: 1.5rem;
 }
 
 .find-best-letters{
